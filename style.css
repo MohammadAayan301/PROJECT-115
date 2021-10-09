@@ -1,0 +1,33 @@
+.heading{
+    font-family: 'Oswald', sans-serif;
+      font-size: 30px;
+      animation-name: example1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      border: 3px solid;
+}
+
+@keyframes example1{
+    0% {border-color: green;}
+    25% {border-color: yellow;}
+    50% {border-color: blueviolet;}
+    75% {border-color: blue;}
+    100% {border-color: red;}
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0% {box-shadow: 1px 1px 38px green;}
+    25% {box-shadow: 1px 1px 38px yellow;}
+    50% {box-shadow: 1px 1px 38px blueviolet;}
+    75% {box-shadow: 1px 1px 38px blue;}
+    100% {box-shadow: 1px 1px 38px red;}
+}
+
+.btn-success:hover{
+    background-color: red;
+}
